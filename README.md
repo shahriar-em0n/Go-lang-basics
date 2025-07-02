@@ -25,3 +25,4 @@ This repository is created to:
 - ✅ Structs and Custom Types  
 - ✅ Pointers   
 - ✅ Goroutines 
+- ✅ Defer
