@@ -16,13 +16,32 @@ This repository is created to:
 
 ## ✅ Covered Topics
 
-- ✅ Hello World & Setup  
-- ✅ Variables and Data Types  
-- ✅ Conditional Statements (if, switch)  
-- ✅ Loops (`for`, `range`)  
-- ✅ Functions and Return Values  
-- ✅ Arrays and  Slices
-- ✅ Structs and Custom Types  
-- ✅ Pointers   
-- ✅ Goroutines 
-- ✅ Defer
+
+- ✅Hello_World
+- ✅simple_values
+- ✅variables
+- ✅constants
+- ✅loop
+- ✅if_else
+- ✅function
+- ✅scope
+- ✅packageScope
+- ✅scopeExample
+- ✅VariableShadowing
+- ✅standardFuntion
+- ✅initFunction
+- ✅anonymous_func_IIFE
+- ✅function_expression
+- ✅parameter_vs_argument
+- ✅first_order
+- ✅internal_memory
+- ✅Closure
+- ✅Struct
+- ✅Recevier
+- ✅Array
+- ✅Pointer
+- ✅Slice
+- ✅variadic_Func
+- ✅Defer
+- ✅go-routine
+- ✅go-server
