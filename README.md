@@ -43,5 +43,5 @@ This repository is created to:
 - ✅Slice
 - ✅variadic_Func
 - ✅Defer
-- ✅go-routine
+- ✅go-routime
 - ✅go-server
