@@ -2,9 +2,8 @@ package main
 
 import (
 	"fmt"
-
-	"pkg/9_packageScope/mathlib"
-	"pkg/9_packageScope/totalage"
+	"pkg/009_packageScope/mathlib"
+	"pkg/009_packageScope/totalage"
 )
 
 var(
@@ -20,7 +19,7 @@ var(
 
 func main (){
 	fmt.Println("showing math libary")
-	mathlib.Sum(a,b)
+	mathlib.Sum(a, b)
 	mathlib.Sub(a , b)
 	mathlib.Mult(a , b)
 	mathlib.Divi(a , b)
