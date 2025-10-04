@@ -8,7 +8,7 @@ import (
 )
 
 func GetProductById(w http.ResponseWriter, r *http.Request) {
-	productId := r.PathValue("productId")
+	productId := r.PathValue("id")
 
 	pId, err := strconv.Atoi(productId)
 

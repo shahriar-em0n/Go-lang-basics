@@ -16,7 +16,7 @@ func Serve() {
 
 	mux.Handle("POST /products",  (http.HandlerFunc(handlers.AddCars)))
 
-	mux.Handle("GET /products/{id}", http.HandlerFunc(handlers.GetProductById))
+	mux.Handle("GET /products/{productId}", http.HandlerFunc(handlers.GetProductById))
 
 	fmt.Println("Server running on :8080")
 
