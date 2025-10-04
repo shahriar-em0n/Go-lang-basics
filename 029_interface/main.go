@@ -13,7 +13,7 @@ func (p payment) makePayment(amount  float64){
 	// stripePaymentGateway.pay(amount)
 	// razorPaymentGateWaye.pay(amount)
 
-	p.gatway.pay()
+	// p.gatway.pay()
 }
 
 type razorpay struct{}
@@ -32,7 +32,7 @@ func main(){
 
 	stripePaymentGateway := stripe{}
 	newPayment := payment{
-		getway: stripePaymentGateway,
+		// getway: stripePaymentGateway,
 	}
 	newPayment.makePayment(100)
 }
